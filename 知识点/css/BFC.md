@@ -85,5 +85,3 @@ setupHelp();
 因为 绑定了块作用域的变量，这意味着不再需要额外的闭包
 */
 ```
-
-![image-20220310231406671](https://raw.githubusercontent.com/cjcj5438/picGo/master/image-20220310231406671.png?token=AFPYJO55CX6LOZKPBAE2AXLCFIK7G)
