@@ -1,7 +1,5 @@
 # Node.js的运行机制如下
 
-[A](../../../****题库****/A面/Node/Event Loop/原理.md)
-
 ![image-20220312125938596](https://chenjing-oss.oss-cn-hangzhou.aliyuncs.com/typora/image-20220312125938596.png)
 
 1. V8引擎解析JavaScript脚本。
