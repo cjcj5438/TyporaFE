@@ -2,7 +2,7 @@
 
 [A](../../../****题库****/A面/Node/Event Loop/原理.md)
 
-![image-20220311150026431](https://raw.githubusercontent.com/cjcj5438/picGo/master/image-20220311150026431.png)
+![image-20220312125938596](https://chenjing-oss.oss-cn-hangzhou.aliyuncs.com/typora/image-20220312125938596.png)
 
 1. V8引擎解析JavaScript脚本。
 2. 解析后的代码，调用Node API。
@@ -11,7 +11,7 @@
 
 # EventLoop执行宏队列的回调任务的6个阶段
 
-![img](https://raw.githubusercontent.com/cjcj5438/picGo/master/paste-0a4f80542216bad6dbdfa774002f5662cebdda05.jpg)
+![image-20220312130017296](https://chenjing-oss.oss-cn-hangzhou.aliyuncs.com/typora/image-20220312130017296.png)
 
 1. timers阶段：这个阶段执行setTimeout和setInterval预定的callback
 2. I/O callback阶段：执行除了close事件的callbacks、被timers设定的callbacks、setImmediate()设定的callbacks这些之外的callbacks
